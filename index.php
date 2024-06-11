@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <a href="home" title="Home" class="header-logo">
-            <img src="imagens/logo.png" alt="Stem">
+            <img src="imagens/logotipo.png" alt="Influenza Games">
         </a>
 
         <a href="javascript:showMenu()" title="Mostrar Menu" class="header-menu">
