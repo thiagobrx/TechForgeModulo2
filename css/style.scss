@@ -1,28 +1,30 @@
-$primary: #171A21;
-$secondary: #161616;
-$clear: #06BFFF;
+$primary:#1A1A1A;
+$secondary:#373639;
+$clear:#ffffff;
 
-* {
+*{
     padding: 0;
     margin: 0;
 }
 
 body {
-    color: #fff;
+    color: $clear;
     background: $secondary;
-    font: 16px "Encode Sans Semi Expanded", Arial, Verdana; 
+    font: 16px "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin-top: 120px;
 }
 
 .container {
-    width: 90%;
-    margin: 30px auto;
+    width: 95%;
+    margin: 10px auto;
 }
 
-.banner{
+.banner {
     margin: 10px;
     img {
-        border-radius: 10px;
+        border-radius: 5px;
         width: 100%;
     }
 }
@@ -30,44 +32,49 @@ body {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    & &-coluna {
-        width: 98%;
+    & &-coluna{
+        width: 20%;
         border: 1px solid $clear;
         border-radius: 10px;
         margin-bottom: 10px;
-        img {
+        img{
             width: 100%;
             border-radius: 10px;
         }
     }
 }
 
-h2 {
-    color: $clear;
+h1 {
+    color:#46A2C7;
     text-align: center;
 }
 
-.center {
+h2{
+    color:$clear;
     text-align: center;
 }
 
+.center{
+    text-align: center;
+}
 .header {
     background: $primary;
-    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000000;
     width: 100%;
-    position: fixed;
+    position:fixed ;
     padding: 15px;
     box-sizing: border-box;
     top: 0;
-    & &-logo {
+    z-index: 9;
+    & &-logo{
         float: left;
-        img {
+        img{
             width: 200px;
         }
     }
     & &-menu {
         float: right;
-        border: 1px solid #fff;
+        border: 1px solid #ffffff;
         background: #ccc;
         padding: 5px;
         border-radius: 10px;
@@ -75,16 +82,16 @@ h2 {
             width: 35px;
         }
     }
-    & &-nav {
+    & &-nav{
         width: 100%;
         display: none;
-        ul {
+        ul{
             list-style: none;
-            li {
+            li{
                 padding: 10px;
                 box-sizing: border-box;
                 border-bottom: 1px solid $clear;
-                a {
+                a{
                     color: $clear;
                     text-decoration: none;
                 }
@@ -93,48 +100,48 @@ h2 {
     }
 }
 
-.show {
+.show{
     display: inline-block !important;
 }
 
-.footer {
+.footer{
     background: $primary;
-    color: #fff;
+    color: rgb(255, 255, 255);    //<----- cor dos texto
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 0 0 10px #000;
 }
 
-@media (min-width: 480px) and (max-width: 1920px) {
-    .header {
-        & &-menu {
+@media (min-width: 480px) and(max-width: 1920px) {
+    .header{
+        & &-menu{
             display: none !important;
         }
-        & &-nav {
+        & &-nav{
             width: auto;
             display: block;
             float: right;
-            ul {
-                li {
+            ul{
+                li{
                     display: inline-block;
                     border: 0;
                     padding: 20px;
-                    a:hover {
-                        color: #fff;    
+                    a:hover{
+                        color:#0D6EFD
                     }
                 }
             }
         }
     }
-    .container {
+    .container{
         width: 1000px;
         margin: 30px auto;
     }
-    .flex {
-        & &-coluna {
+    .flex{
+        & &-coluna{
             width: 23%;
-            margin: 5px;
+            margin: 6px;
         }
     }
 }

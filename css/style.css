@@ -4,22 +4,24 @@
 }
 
 body {
-  color: #fff;
-  background: #161616;
-  font: 16px "Encode Sans Semi Expanded", Arial, Verdana;
+  color: #ffffff;
+  background: #373639;
+  font: 16px "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin-top: 120px;
 }
 
 .container {
-  width: 90%;
-  margin: 30px auto;
+  width: 95%;
+  margin: 10px auto;
 }
 
 .banner {
   margin: 10px;
 }
 .banner img {
-  border-radius: 10px;
+  border-radius: 5px;
   width: 100%;
 }
 
@@ -28,8 +30,8 @@ body {
   flex-wrap: wrap;
 }
 .flex .flex-coluna {
-  width: 98%;
-  border: 1px solid #06BFFF;
+  width: 20%;
+  border: 1px solid #ffffff;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -38,8 +40,13 @@ body {
   border-radius: 10px;
 }
 
+h1 {
+  color: #46A2C7;
+  text-align: center;
+}
+
 h2 {
-  color: #06BFFF;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -48,13 +55,14 @@ h2 {
 }
 
 .header {
-  background: #171A21;
-  box-shadow: 0 0 10px #000;
+  background: #1A1A1A;
+  box-shadow: 0 0 10px #000000;
   width: 100%;
   position: fixed;
   padding: 15px;
   box-sizing: border-box;
   top: 0;
+  z-index: 9;
 }
 .header .header-logo {
   float: left;
@@ -64,7 +72,7 @@ h2 {
 }
 .header .header-menu {
   float: right;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   background: #ccc;
   padding: 5px;
   border-radius: 10px;
@@ -82,10 +90,10 @@ h2 {
 .header .header-nav ul li {
   padding: 10px;
   box-sizing: border-box;
-  border-bottom: 1px solid #06BFFF;
+  border-bottom: 1px solid #ffffff;
 }
 .header .header-nav ul li a {
-  color: #06BFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -94,8 +102,8 @@ h2 {
 }
 
 .footer {
-  background: #171A21;
-  color: #fff;
+  background: #1A1A1A;
+  color: white;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
@@ -117,7 +125,7 @@ h2 {
     padding: 20px;
   }
   .header .header-nav ul li a:hover {
-    color: #fff;
+    color: #0D6EFD;
   }
 
   .container {
@@ -127,7 +135,7 @@ h2 {
 
   .flex .flex-coluna {
     width: 23%;
-    margin: 5px;
+    margin: 6px;
   }
 }
 
