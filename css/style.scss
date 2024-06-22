@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 $primary:#1A1A1A;
 $secondary:#373639;
 $clear:#ffffff;
+=======
+$primary: #000000;
+$secondary: #FB542B;
+$clear: #ffffff;
+>>>>>>> c845aa47842273b34f44ef982059e0de06ce2282
 
 *{
     padding: 0;
@@ -10,10 +16,17 @@ $clear:#ffffff;
 body {
     color: $clear;
     background: $secondary;
+<<<<<<< HEAD
     font: 16px "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-top: 120px;
+=======
+    font: 20px "Encode Sans Semi Expanded", Arial, Verdana; 
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+>>>>>>> c845aa47842273b34f44ef982059e0de06ce2282
 }
 
 .container {
@@ -23,6 +36,9 @@ body {
 
 .banner {
     margin: 10px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
     img {
         border-radius: 5px;
         width: 100%;
@@ -54,9 +70,30 @@ h2{
     text-align: center;
 }
 
+<<<<<<< HEAD
 .center{
     text-align: center;
 }
+=======
+.flex-game {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px #000;
+    & &-imagem {
+        box-shadow: 0 0 10px #000;
+        width: 98%;
+        img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #000;
+        }
+    }
+    & &-descricao {
+        width: 98%;
+    }
+}
+
+>>>>>>> c845aa47842273b34f44ef982059e0de06ce2282
 .header {
     background: $primary;
     box-shadow: 0 0 10px #000000;
@@ -66,10 +103,17 @@ h2{
     box-sizing: border-box;
     top: 0;
     z-index: 9;
+<<<<<<< HEAD
     & &-logo{
         float: left;
         img{
             width: 200px;
+=======
+    & &-logo {
+        float: left;
+        img {
+            width: 150px;
+>>>>>>> c845aa47842273b34f44ef982059e0de06ce2282
         }
     }
     & &-menu {
@@ -80,6 +124,8 @@ h2{
         border-radius: 10px;
         img {
             width: 35px;
+            border-radius: 10px;
+            margin-bottom: 10px;
         }
     }
     & &-nav{
@@ -100,15 +146,37 @@ h2{
     }
 }
 
+<<<<<<< HEAD
 .show{
+=======
+.carousel-inner{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #000;
+}
+.row{
+    background: $primary;
+    box-shadow: 0 0 10px #000;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.show {
+>>>>>>> c845aa47842273b34f44ef982059e0de06ce2282
     display: inline-block !important;
 }
 
 .footer{
     background: $primary;
+<<<<<<< HEAD
     color: rgb(255, 255, 255);    //<----- cor dos texto
+=======
+    color: #00e1ff;
+>>>>>>> c845aa47842273b34f44ef982059e0de06ce2282
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     box-sizing: border-box;
     box-shadow: 0 0 10px #000;
 }
@@ -127,8 +195,13 @@ h2{
                     display: inline-block;
                     border: 0;
                     padding: 20px;
+<<<<<<< HEAD
                     a:hover{
                         color:#0D6EFD
+=======
+                    a:hover {
+                        color: #fff;
+>>>>>>> c845aa47842273b34f44ef982059e0de06ce2282
                     }
                 }
             }
@@ -138,10 +211,29 @@ h2{
         width: 1000px;
         margin: 30px auto;
     }
+<<<<<<< HEAD
     .flex{
         & &-coluna{
+=======
+    .flex {
+        & &-coluna {
+            box-shadow: 0 0 10px #000;
+>>>>>>> c845aa47842273b34f44ef982059e0de06ce2282
             width: 23%;
             margin: 6px;
+        }
+    }
+    .flex-game {
+        & &-imagem {
+            width: 30%;
+        }
+        & &-descricao {
+            width: 68%;
+            margin: 10px;
+            p {
+                line-height: 25px;
+                margin-bottom: 20px;
+            }
         }
     }
 }

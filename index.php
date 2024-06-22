@@ -12,8 +12,12 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<<<<<<< HEAD
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
+=======
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+>>>>>>> c845aa47842273b34f44ef982059e0de06ce2282
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
     
@@ -31,10 +35,17 @@
             <img src="imagens/menu.webp" alt="Menu">
         </a>
 
+<<<<<<< HEAD
         <nav class="header-nav nav-underline" data-aos="zoom-in">
             <ul class="nav nav-underline">
                 <li><a href="home" title="Home">Página Inicial</a></li>
                 <li><a href="quem-somos" title="Quem Somos">Desenvolvedores</a></li>
+=======
+        <nav class="header-nav" data-aos="zoom-in">
+            <ul>
+                <li><a href="home" title="Home">Home</a></li>
+                <li><a href="quem-somos" title="Quem Somos">Quem Somos</a></li>
+>>>>>>> c845aa47842273b34f44ef982059e0de06ce2282
                 <li><a href="lancamentos" title="Lançamentos">Lançamentos</a></li>
                 <li><a href="contato" title="Contato">Contato</a></li>
             </ul>
