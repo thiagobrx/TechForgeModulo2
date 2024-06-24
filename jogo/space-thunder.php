@@ -19,8 +19,8 @@
             </a>
         </div>
         <div class="flex-coluna">
-            <a href="imagens/Captura de tela 2024-04-17 120921.png" alt="Space Thunder" title="Space Thunder" data-fslightbox>
-                <img src="imagens/Captura de tela 2024-04-17 120921.png" alt="Space Thunder">
+            <a href="imagens/space.png" alt="Space Thunder" title="Space Thunder" data-fslightbox>
+                <img src="imagens/space.png" alt="Space Thunder">
             </a>
         </div>
     </div>

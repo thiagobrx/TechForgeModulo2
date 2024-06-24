@@ -1,20 +1,20 @@
 <div class="container-sm">
   <h2>DESTAQUES</h2>
-  <div id="carouselExampleIndicators" class="carousel slide" data-aos="zoom-in-up">
+  <div id="carouselExampleIndicators" class="carousel slide" data-aos="zoom-in-up" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="carousel-item active" data-bs-interval="4000">
         <img src="imagens/Space-Thunder.jpeg" class="d-block w-100" alt="Assassins Creed Shadows">
       </div>
-      <div class="carousel-item">
-        <img src="imagens/gta6.webp" class="d-block w-100" alt="GTA6">
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="imagens/flyingchicken.jpg" class="d-block w-100" alt="Flying-Chiken">
       </div>
-      <div class="carousel-item">
-        <img src="imagens/Black-Myth-Wukong.jpg" class="d-block w-100" alt="Black Myth: Wukong">
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" class="d-block w-100" alt="Jack Runner">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -31,31 +31,31 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card h-100 border-primary text-bg-dark">
-          <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" class="card-img-top" alt="Jack  Runner">
+          <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" class="card-img-top" alt="Jack Runner">
           <div class="card-body">
             <h5 class="card-title">Jack Runner</h5>
-            <p class="card-text">Corrido, Record, Pontuação, 2D</p>
+            <p class="card-text">Corrida, Record, Pontuação, 2D</p>
             <a href="jogo/jack-runner" class="btn btn-primary">Saiba Mais</a>
           </div>
         </div>
       </div>
       <div class="col" data-aos="fade-up">
         <div class="card h-100 border-primary text-bg-dark">
-          <img src="imagens/Black-Myth-Wukong.jpg" class="card-img-top" alt="...">
+          <img src="imagens/flyingchicken.jpg" class="card-img-top" alt="Flying Chicken">
           <div class="card-body">
-            <h5 class="card-title">Black Myth: Wukong</h5>
-            <p class="card-text">Black Myth: Wukong é um jogo de RPG de ação que está sendo desenvolvido pela Game Science, baseado no romance chinês clássico do século 16, Journey to the West. A jogabilidade foi descrita como semelhante à de Souls. O jogador controla Sun Wukong (também conhecido como Rei Macaco).</p>
-            <a href="#" class="btn btn-primary">Saiba Mais</a>
+            <h5 class="card-title">Flying Chicken</h5>
+            <p class="card-text">Desafio, Pontuação, Obstáculos</p>
+            <a href="jogo/flying-chicken" class="btn btn-primary">Saiba Mais</a>
           </div>
         </div>
       </div>
       <div class="col" data-aos="fade-up">
         <div class="card h-100 border-primary text-bg-dark">
-          <img src="imagens/gta-v.jpg" class="card-img-top" alt="...">
+          <img src="imagens/arte-da-ocultação.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Grand Theft Auto V</h5>
-            <p class="card-text">Grand Theft Auto V é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games. É o sétimo título principal da série Grand Theft Auto e foi lançado originalmente em 17 de setembro de 2013 para PlayStation 3 e Xbox 360.</p>
-            <a href="#" class="btn btn-primary">Saiba Mais</a>
+            <h5 class="card-title">Arte da Ocultação</h5>
+            <p class="card-text">2D, Luta, Terror</p>
+            <a href="jogo/arte-da-ocultacao" class="btn btn-primary">Saiba Mais</a>
           </div>
         </div>
       </div>
@@ -71,21 +71,21 @@
       </div>
       <div class="col" data-aos="fade-up">
         <div class="card h-100 border-primary text-bg-dark">
-          <img src="imagens/gta6.webp" class="card-img-top" alt="...">
+          <img src="imagens/survivalimg.jpg" class="card-img-top" alt="Survival Of The Undead">
           <div class="card-body">
-            <h5 class="card-title">Grand Theft Auto VI</h5>
-            <p class="card-text">é um futuro jogo eletrônico de ação-aventura desenvolvido pela Rockstar Studios e publicado pela Rockstar Games. Será o oitavo título principal da franquia Grand Theft Auto, sendo o sucessor de Grand Theft Auto V (2013), e o décimo sexto jogo eletrônico da série.</p>
-            <a href="#" class="btn btn-primary">Saiba Mais</a>
+            <h5 class="card-title">Survival Of The Undead</h5>
+            <p class="card-text">Survival, Terror, 2D, Obstáculos</p>
+            <a href="jogo/survival-of-the-undead" class="btn btn-primary">Saiba Mais</a>
           </div>
         </div>
       </div>
       <div class="col" data-aos="fade-up">
         <div class="card h-100 border-primary text-bg-dark">
-          <img src="imagens/monster-hunter.jpg" class="card-img-top" alt="...">
+          <img src="imagens/speedbird2.0.jpg" class="card-img-top" alt="Speed Bird">
           <div class="card-body">
-            <h5 class="card-title">Monster Hunter</h5>
-            <p class="card-text">A franquia Monster Hunter é uma série de jogos de fantasia desenvolvida e publicada pela Capcom, que se iniciou com o jogo de mesmo nome para Playstation 2.</p>
-            <a href="#" class="btn btn-primary">Saiba Mais</a>
+            <h5 class="card-title">Speed Bird</h5>
+            <p class="card-text">Multiplo inimigos, Desafio, Bonus, Pontuação, 2D</p>
+            <a href="jogo/speed.bird" class="btn btn-primary">Saiba Mais</a>
           </div>
         </div>
       </div>

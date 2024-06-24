@@ -2,7 +2,7 @@
     <h2>Jack Runner</h2>
     <div class="flex-game">
         <div class="flex-game-imagem">
-            <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" alt="Space Thunder">
+            <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" alt="Jack Runner">
         </div>
         <div class="flex-game-descricao">
             <p>
@@ -14,13 +14,13 @@
     <h2>Imagens do Jogo Jack Runner</h2>
     <div class="flex">
         <div class="flex-coluna">
-            <a href="jogo/Projeto Kelwin/Imagens pra colocar no site/game over.png" alt="Space Thunder" title="Space Thunder" data-fslightbox>
-                <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/game over.png" alt="Space Thunder">
+            <a href="jogo/Projeto Kelwin/Imagens pra colocar no site/game over.png" alt="Jack Runner" title="Jack Runner" data-fslightbox>
+                <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/game over.png" alt="Jack Runner">
             </a>
         </div>
         <div class="flex-coluna">
-            <a href="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" alt="Space Thunder" title="Space Thunder" data-fslightbox>
-                <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" alt="Space Thunder">
+            <a href="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" alt="Jack Runner" title="Jack Runner" data-fslightbox>
+                <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" alt="Jack Runner">
             </a>
         </div>
     </div>

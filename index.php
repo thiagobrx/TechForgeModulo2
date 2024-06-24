@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BATISTA Games</title>
+    <title>Batista Games</title>
 
     <base href="http://localhost/projeto/BatistaGames/home">
 
@@ -33,7 +33,6 @@
             <ul>
                 <li><a href="home" title="Home">Home</a></li>
                 <li><a href="quem-somos" title="Quem Somos">Desenvolvedores</a></li>
-                <li><a href="lancamentos" title="Lançamentos">Lançamentos</a></li>
                 <li><a href="contato" title="Contato">Contato</a></li>
             </ul>
         </nav>
