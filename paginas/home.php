@@ -1,5 +1,5 @@
 <div class="container-sm">
-  <h2>DESTAQUES</h2>
+  <h1>DESTAQUES</h1>
   <div id="carouselExampleIndicators" class="carousel slide" data-aos="zoom-in-up" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -14,7 +14,7 @@
         <img src="imagens/flyingchicken.jpg" class="d-block w-100" alt="Flying-Chiken">
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" class="d-block w-100" alt="Jack Runner">
+        <img src="imagens/survivalimg.jpg" class="d-block w-100" alt="Survival Of The Undead">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -89,11 +89,5 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="banner" data-aos="zoom-in-up">
-      <a href="home" title="Dragon Ball">
-        <img src="imagens/banner2.jpg" alt="Dragon Ball">
-      </a>
     </div>
   </div>

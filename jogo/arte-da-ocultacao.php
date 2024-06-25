@@ -24,5 +24,12 @@
             </a>
         </div>
     </div>
-    <h2>Jogue Agora</h2>
-    <iframe src="jogo/jogothiago/index.html" width="1280" height="768" frameborder="0"></iframe>
+    <h2>Clique para jogar</h2>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-outline-success">
+            <a href="jogo/jogothiago/index.html" target="_blank" title="Arte da Ocultação">
+                <h1>JOGAR</h1>
+            </a>
+        </button>
+    </div>
+</div>

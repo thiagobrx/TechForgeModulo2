@@ -6,7 +6,8 @@
         </div>
         <div class="flex-game-descricao">
             <p>
-            Flying Chicken é um jogo eletronico baseado no aclamado Flappy Bird, desenvolvido por Gabriel Mastracose como um projeto na faculdade em 2024.
+            "Survival Of The Undead" é um jogo 2D emocionante que transporta os jogadores para um mundo pós-apocalíptico devastado por zumbis. 
+            Combinando elementos de estratégia, gerenciamento de recursos e combate intenso, o jogo oferece uma experiência envolvente e desafiadora.
             </p>
         </div>
     </div>
@@ -28,6 +29,12 @@
             </a>
         </div>
     </div>
-    <h2>Jogue Agora</h2>
-    <iframe src="jogo/projetozumbie/index.html" width="1280" height="768" frameborder="0"></iframe>
+    <h2>Clique para jogar</h2>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-outline-success">
+            <a href="jogo/projetozumbie/index.html" target="_blank" title="Survival of The Undead">
+                <h1>JOGAR</h1>
+            </a>
+        </button>
+    </div>
 </div>

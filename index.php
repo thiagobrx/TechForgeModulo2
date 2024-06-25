@@ -32,7 +32,7 @@
         <nav class="header-nav" data-aos="zoom-in">
             <ul>
                 <li><a href="home" title="Home">Home</a></li>
-                <li><a href="quem-somos" title="Quem Somos">Desenvolvedores</a></li>
+                <li><a href="desenvolvedores" title="Desenvolvedores">Desenvolvedores</a></li>
                 <li><a href="contato" title="Contato">Contato</a></li>
             </ul>
         </nav>
@@ -68,7 +68,7 @@
         ?>
     </main>
     <footer class="footer">
-        <p>Desenvolvido por Thiago Batista, 2024</p>
+        <p>© Copyright 2024, Batista Games. All Rights Reserved.</p>
     </footer>
 
     <script src="js/aos.js"></script>
