@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Batista Games</title>
+    <title>Bandeira Games</title>
 
     <base href="http://localhost/projeto/BatistaGames/home">
 
@@ -22,7 +22,7 @@
 <body>
     <header class="header navbar navbar-fixed-top navbar-default">
         <a href="home" title="Home" class="header-logo" data-aos="zoom-in">
-            <img src="imagens/logo.jpg" alt="Influenza Games">
+            <img src="imagens/LogoBandeiraGames.jpg" alt="Bandeira Games">
         </a>
 
         <a href="javascript:showMenu()" title="Mostrar Menu" class="header-menu" data-aos="zoom-in">
@@ -68,7 +68,7 @@
         ?>
     </main>
     <footer class="footer">
-        <p>© Copyright 2024, Batista Games. All Rights Reserved.</p>
+        <p>© Copyright 2024, Bandeira Games. All Rights Reserved.</p>
     </footer>
 
     <script src="js/aos.js"></script>

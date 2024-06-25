@@ -8,7 +8,7 @@
                     <img src="imagens/thiagobatista.jpeg" class="card-img-top" alt="Jack Runner">
                     <div class="card-body">
                         <h5 class="card-title">Thiago Batista</h5>
-                        <p class="card-text">Criador do Site Batista Games e Desenvolvedor do Jogo Space Thunder</p>
+                        <p class="card-text">Criador do Site Bandeira Games e Desenvolvedor do Jogo Space Thunder</p>
                     </div>
                 </div>
             </div>

@@ -85,7 +85,7 @@ a {
 }
 
 .header {
-  background: #212529;
+  background: #000000;
   box-shadow: 0 0 10px #000000;
   width: 100%;
   position: fixed;
@@ -132,7 +132,7 @@ a {
 }
 
 .footer {
-  background: #212529;
+  background: #000000;
   color: #d5d504;
   text-align: center;
   padding: 20px;
