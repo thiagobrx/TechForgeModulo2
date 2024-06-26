@@ -2,10 +2,41 @@
 header("ccess-Control-Allow-Origin: *");
 header("Content-type: application/json;charset-utf-8");
  
-$jogo [1] = array (
+$jogo[1] = array (
+    "id" => 4,
     "nome" => "Jack Runner",
-    "descricao" => "Jack Runner é um jogo de corrida infinita, onde a cada obstaculo que o personagem principal desviar, ganha uma pontução no seu score. O objetivo do jogo é conseguir ultrapassar o seu proprio limite e conseguir chegar numa pontução mais alta que você conseguir!",
-    "imagem" => "jogo/Projeto Kelwin/Imagens pra colocar no site/start.png",
-    "link" => "http://localhost/projeto/BatistaGames/jogo/jack-runner"
+    "imagem" => "http://localhost/BandeiraGames/imagens/start.png",
 );
+
+$jogo[2] = array (
+    "id" => 6,
+    "nome" => "Flying Chicken",
+    "imagem" => "http://localhost/BandeiraGames/imagens/flyingchicken.jpg",
+    "descricao" => "ww"
+);
+
+$jogo [3] = array (
+    "id" => 1,
+    "nome" => "Arte da Ocultação",
+    "imagem" => "http://localhost/BandeiraGames/imagens/arte-da-ocultação.jpeg",
+);
+
+$jogo [4] = array (
+    "id" => 2,
+    "nome" => "Space Thunder",
+    "imagem" => "http://localhost/BandeiraGames/imagens/Space-Thunder.jpeg",
+);
+
+$jogo[5] = array (
+    "id" => 5,
+    "nome" => "Survival Of The Undead",
+    "imagem" => "http://localhost/BandeiraGames/imagens/survivalimg.jpg",
+);
+
+$jogo[6] = array (
+    "id" => 3,
+    "nome" => "Speed Bird",
+    "imagem" => "http://localhost/BandeiraGames/imagens/speedbird2.0.jpg",
+);
+
 echo json_encode($jogo);

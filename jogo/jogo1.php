@@ -1,3 +1,6 @@
+
+
+
 <div class="container-sm">
     <h2>Arte da Ocultação</h2>
     <div class="flex-game">

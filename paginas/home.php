@@ -1,5 +1,13 @@
+<?php
+$url = "https://bandeiragames2020.000webhostapp.com/api/api.php";
+$dados = file_get_contents($url);
+$dados = json_decode($dados);
+
+
+?>
+
 <div class="container-sm">
-  <h1>DESTAQUES</h1>
+  <h1>Destaques</h1>
   <div id="carouselExampleIndicators" class="carousel slide" data-aos="zoom-in-up" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -26,68 +34,26 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <h1>Novos Lançamentos</h1>
+  <div class="container row" data-aos="fade-up">
+    <?php
+    foreach ($dados as $arquivos) {
+    ?>
 
-  <div class="flex center" data-aos="fade-up">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100 border-primary text-bg-dark">
-          <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" class="card-img-top" alt="Jack Runner">
-          <div class="card-body">
-            <h5 class="card-title">Jack Runner</h5>
-            <p class="card-text">Corrida, Record, Pontuação, 2D</p>
-            <a href="jogo/jack-runner" class="btn btn-primary">Saiba Mais</a>
+      <div class="col-sm-4 g-4" data-aos="fade-up">
+        <div class="">
+          <div class="card h-100 border-primary text-bg-dark">
+            <img src="<?= $arquivos->imagem ?>" class="card-img-top" alt="Jack Runner">
+            <div class="card-body text-center">
+              <h5 class="card-title"><?= $arquivos->nome ?></h5>
+              <p class="card-text">Corrida, Record, Pontuação, 2D</p>
+              <a href="jogo/jogo<?= $arquivos->id ?>" class="btn btn-primary text-center">Saiba Mais</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col" data-aos="fade-up">
-        <div class="card h-100 border-primary text-bg-dark">
-          <img src="imagens/flyingchicken.jpg" class="card-img-top" alt="Flying Chicken">
-          <div class="card-body">
-            <h5 class="card-title">Flying Chicken</h5>
-            <p class="card-text">Desafio, Pontuação, Obstáculos</p>
-            <a href="jogo/flying-chicken" class="btn btn-primary">Saiba Mais</a>
-          </div>
-        </div>
-      </div>
-      <div class="col" data-aos="fade-up">
-        <div class="card h-100 border-primary text-bg-dark">
-          <img src="imagens/arte-da-ocultação.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Arte da Ocultação</h5>
-            <p class="card-text">2D, Luta, Terror</p>
-            <a href="jogo/arte-da-ocultacao" class="btn btn-primary">Saiba Mais</a>
-          </div>
-        </div>
-      </div>
-      <div class="col" data-aos="fade-up">
-        <div class="card h-100 border-primary text-bg-dark">
-          <img src="imagens/Space-Thunder.jpeg" class="card-img-top" alt="Space Thunder">
-          <div class="card-body">
-            <h5 class="card-title">Space Thunder</h5>
-            <p class="card-text">Clássico, 2D, Arcade</p>
-            <a href="jogo/space-thunder" class="btn btn-primary">Saiba Mais</a>
-          </div>
-        </div>
-      </div>
-      <div class="col" data-aos="fade-up">
-        <div class="card h-100 border-primary text-bg-dark">
-          <img src="imagens/survivalimg.jpg" class="card-img-top" alt="Survival Of The Undead">
-          <div class="card-body">
-            <h5 class="card-title">Survival Of The Undead</h5>
-            <p class="card-text">Survival, Terror, 2D, Obstáculos</p>
-            <a href="jogo/survival-of-the-undead" class="btn btn-primary">Saiba Mais</a>
-          </div>
-        </div>
-      </div>
-      <div class="col" data-aos="fade-up">
-        <div class="card h-100 border-primary text-bg-dark">
-          <img src="imagens/speedbird2.0.jpg" class="card-img-top" alt="Speed Bird">
-          <div class="card-body">
-            <h5 class="card-title">Speed Bird</h5>
-            <p class="card-text">Multiplo inimigos, Desafio, Bonus, Pontuação, 2D</p>
-            <a href="jogo/speed.bird" class="btn btn-primary">Saiba Mais</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php
+    }
+    ?>
   </div>
+</div>

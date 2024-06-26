@@ -2,7 +2,7 @@
     <h2>Jack Runner</h2>
     <div class="flex-game">
         <div class="flex-game-imagem">
-            <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" alt="Jack Runner">
+            <img src="imagens/start.png" alt="Jack Runner">
         </div>
         <div class="flex-game-descricao">
             <p>
@@ -20,7 +20,7 @@
         </div>
         <div class="flex-coluna">
             <a href="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" alt="Jack Runner" title="Jack Runner" data-fslightbox>
-                <img src="jogo/Projeto Kelwin/Imagens pra colocar no site/start.png" alt="Jack Runner">
+                <img src="imagens/start.png" alt="Jack Runner">
             </a>
         </div>
     </div>

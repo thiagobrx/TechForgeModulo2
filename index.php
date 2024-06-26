@@ -1,3 +1,11 @@
+<?php 
+$url="http://localhost/BandeiraGames/api/api.php";
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bandeira Games</title>
 
-    <base href="http://localhost/projeto/BatistaGames/home">
+    <base href="http://localhost/BandeiraGames/">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +39,7 @@
 
         <nav class="header-nav" data-aos="zoom-in">
             <ul>
-                <li><a href="home" title="Home">Home</a></li>
+                <li><a href="home" title="Página Inicial">Página Inicial</a></li>
                 <li><a href="desenvolvedores" title="Desenvolvedores">Desenvolvedores</a></li>
                 <li><a href="contato" title="Contato">Contato</a></li>
             </ul>
